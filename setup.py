@@ -24,7 +24,7 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python',
     ],
-    description='This package allows for acquisition, storage, and automatic use of Bearer authentication tokens.',
+    description='An implementation of JSON Web Tokens using the Bearer authentication scheme for Requests.',
     extras_require={
         'dev': [
             'setuptools-version-command'
