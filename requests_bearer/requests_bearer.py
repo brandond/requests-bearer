@@ -16,7 +16,7 @@ class HttpBearerAuth(AuthBase):
         if 'Authorization' in response.request.headers:
             return response
 
-        params = dict(re.findall('(\w+)="([^"]+)",?', response.headers['WWW-Authenticate'][7:]))
+        params = dict(re.findall(r'(\w+)="([^"]+)",?', response.headers['WWW-Authenticate'][7:]))
         token_key = '{realm}-{service}-{scope}'.format(**params)
         error = params.pop('error', None)
         realm = params.pop('realm')
