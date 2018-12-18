@@ -2,7 +2,7 @@ requests-bearer
 ===============
 
 [![image](https://badge.fury.io/py/requests-bearer.svg)](https://badge.fury.io/py/requests-bearer)
-[![image](https://travis-ci.org/brandond/requests-bearer.svg?branch=master)](https://travis-ci.org/brandond/requests-bearer)
+[![image](https://travis-ci.com/brandond/requests-bearer.svg?branch=master)](https://travis-ci.com/brandond/requests-bearer)
 
 An implementation of JSON Web Tokens using the Bearer authentication scheme for Requests.
 
